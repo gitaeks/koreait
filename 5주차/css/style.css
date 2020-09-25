@@ -1,0 +1,240 @@
+body {
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+.slide {
+  background-position: center;
+  background-size: cover;
+  height: 360px;
+  padding: 70px 10px 0 30px
+}
+
+.slide-01 {
+  background-image: url('../img/slide-01.png');
+}
+
+.slide-02 {
+  background-image: url('../img/slide-02.png');
+}
+
+.slide-03 {
+  background-image: url('../img/slide-03.png');
+}
+
+.slide-04 {
+  background-image: url('../img/slide-04.png');
+}
+
+.slide-05 {
+  background-image: url('../img/slide-05.png');
+}
+
+.slide-06 {
+  background-image: url('../img/slide-06.png');
+}
+
+.slide-07 {
+  background-image: url('../img/slide-07.png');
+}
+
+.slide-08 {
+  background-image: url('../img/slide-08.png');
+}
+
+.slide h2 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -1.4px;
+  line-height: 55px
+}
+
+.slide .btn {
+  padding: 10px 53px;
+}
+
+.slide.invert {
+  color: #fff
+}
+
+.slide.invert .btn {
+  border-color: #fff;
+  color: #fff
+}
+
+.slide.invert .btn:hover {
+  background-color: #fff;
+  color: #000
+}
+
+/* 퀵메뉴 */
+.quickmenu .col {
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.quickmenu .card {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.quickmenu .card:hover {
+  border-color: #000;
+  text-decoration: none;
+}
+
+.quickmenu .card-title {
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #333
+}
+
+.quickmenu .card-text {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #666;
+}
+
+/* 고객센터 */
+.board header {
+  font-size: 28px;
+  letter-spacing: -1px;
+}
+
+.board header a {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+}
+
+.board header a:hover {
+  text-decoration: none;
+}
+
+.board ul {
+  margin-top: 5px;
+  border-top: 2px solid #6f6f6f
+}
+
+.board li {
+  padding: 9px 0px;
+  font-size: 16px
+}
+
+.board li:first-child {
+  padding-top: 22px;
+}
+
+.board li .badge {
+  width: 70px;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.board li a {
+  color: #333;
+  padding-left: 5px;
+  text-decoration: none;
+  font-weight: 300;
+  letter-spacing: -1px;
+  font-size: 16px;
+}
+
+.board li .date {
+  font-weight: 300;
+  color: #999;
+  float: right;
+}
+
+/* 특장점 */
+.feature {
+  background: #1a6fb7;
+}
+
+.feature .people {
+  background-image: url(../img/img_model_leej.png);
+  background-position: left 50px;
+  background-repeat: no-repeat;
+  height: 710px;
+}
+
+.feature .info {
+  padding: 70px 0;
+  color: #fff
+}
+
+.feature .info h3 {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 300
+}
+
+.feature .info .card {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #2c8bcb;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 0;
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  color: #cdf7ff;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 80px
+}
+
+.feature .info .card strong {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff
+}
+
+.feature .info .card-01 {
+  background-image: url(../img/icon-advanced-1.svg);
+}
+
+.feature .info .card-02 {
+  background-image: url(../img/icon-advanced-2.svg);
+}
+
+.feature .info .card-03 {
+  background-image: url(../img/icon-advanced-3.svg);
+}
+
+/* 고객센터 */
+.cscenter {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.cscenter h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.cscenter p {
+  color: #666;
+  font-size: 16px;
+}
+
+.cscenter .btn {
+  width: 180px;
+  padding: 8px .75rem;
+}
+
+.cscenter li {
+  font-weight: 300;
+  letter-spacing: -0.03px;
+  color: #666;
+}
+
+.cscenter li svg {
+  width: 30px;
+  height: 30px
+}
